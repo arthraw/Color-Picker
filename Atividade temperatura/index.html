@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+    
+        <div class="name"><h1>Color <span>picker</span></h1></div>
+
+        <form>
+            <label for="red">Red:</label>
+            <input class="change-color" id="redInput" onchange="changeBackGroundColor()" type="range" max="255" min="0">
+            <label for="green">Green:</label>
+            <input class="change-color" id="greenInput" onchange="changeBackGroundColor()" type="range" max="255" min="0"> 
+            <label for="blue">Blue:</label>
+            <input class="change-color" id="blueInput" onchange="changeBackGroundColor()" type="range" max="255" min="0"> 
+        </form>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
